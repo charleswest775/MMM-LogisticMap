@@ -1,7 +1,7 @@
 {
   "name": "mmm-logisticmap",
   "version": "1.0.0",
-  "description": "MagicMirror² module: The road to chaos: the logistic map's bifurcation diagram paints itself, then a cobweb sweeps through period doubling into chaos.",
+  "description": "MagicMirror² module: the logistic map's road to chaos, a bifurcation diagram that paints itself and a cobweb that sweeps through period doubling into chaos, drawn for a Raspberry Pi without a GPU.",
   "main": "MMM-LogisticMap.js",
   "scripts": {
     "test": "node --test"
