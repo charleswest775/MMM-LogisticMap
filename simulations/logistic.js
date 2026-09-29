@@ -180,13 +180,13 @@
 		subtitle: "the logistic map — a population model with one parameter, r",
 		equations: [
 			"x<sub>n+1</sub> = r x<sub>n</sub> (1 − x<sub>n</sub>)",
-			"<span class=\"chaos-note\">each column shows where x ends up for that r: one value, then 2, 4, 8 … — the doublings come faster by Feigenbaum's ratio δ = 4.6692… until at r ≈ 3.5699 the orbit never repeats</span>"
+			"<span class=\"logistic-note\">each column shows where x ends up for that r: one value, then 2, 4, 8 … — the doublings come faster by Feigenbaum's ratio δ = 4.6692… until at r ≈ 3.5699 the orbit never repeats</span>"
 		]
 	};
 	Logistic.period = period;
 	Logistic.lyapunov = lyapunov;
 
-	root.ChaosSimulations = root.ChaosSimulations || {};
-	root.ChaosSimulations.logistic = Logistic;
+	root.LogisticSimulations = root.LogisticSimulations || {};
+	root.LogisticSimulations.logistic = Logistic;
 	if (typeof module !== "undefined") module.exports = { Logistic };
 })(typeof window !== "undefined" ? window : globalThis);
